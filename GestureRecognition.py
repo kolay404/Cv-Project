@@ -15,9 +15,10 @@ stateResult = False
 startGame = False
 scores = [0, 0]  # [AI, Player]
  
-imgBG = cv2.imread("Resources/BG.png")
+
 
 while True:
+    imgBG = cv2.imread("Resources/BG.png")
     success, img = cap.read()
  
     imgScaled = cv2.resize(img, (0, 0), None, 0.875, 0.875)
