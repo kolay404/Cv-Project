@@ -77,7 +77,7 @@ while True:
     # cv2.imshow("Scaled", imgScaled)
  
     key = cv2.waitKey(1)
-    if key == ord('s'):
+    if key == 13:
         startGame = True
         initialTime = time.time()
         stateResult = False
