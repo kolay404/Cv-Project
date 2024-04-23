@@ -73,7 +73,7 @@ while True:
     cv2.putText(imgBG, str(scores[1]), (1112, 215), cv2.FONT_HERSHEY_PLAIN, 4, (255, 255, 255), 6)
  
     # cv2.imshow("Image", img)
-    cv2.imshow("BG", imgBG)
+    cv2.imshow("Rock-Paper-Scissors Game", imgBG)
     # cv2.imshow("Scaled", imgScaled)
  
     key = cv2.waitKey(1)
